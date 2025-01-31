@@ -24,7 +24,7 @@ public class Plugin extends ShiinaPlugin
 
     @Override
     protected void onEnable(String pluginName) {
-        ModuleRegister.registerModule("home", ShiinaModule.fromRawHtml("TestMod", "infos", "plugins/onlmodules/test.html"));
+        ModuleRegister.registerModule("home", ShiinaModule.fromRawHtml("SimeRawHtmlModule", "infos", "plugins/onlmodules/test.html"));
     }
 
 }
